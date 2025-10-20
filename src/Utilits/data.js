@@ -158,3 +158,21 @@ export const Course =[
         price : 5999
     },
 ]
+
+export const Students = [
+    {
+        img : "https://d502jbuhuh9wk.cloudfront.net/orgData/6512b619e4b01fed6098ba30/pages/assets/images/biFRCstudent3.jpg",
+        name : "Meet Rakholiya",
+        desc : "The unique and internationally recognized course structure that helps students to keep updated with the latest trend and market requirements helps students be prepared for local and international job markets. This is the main reason I choose the institute's red and white group."
+    },
+    {
+        img : "https://d502jbuhuh9wk.cloudfront.net/orgData/6512b619e4b01fed6098ba30/pages/assets/images/e9YYistudent5.jpg",
+        name : "Krunal Trada",
+        desc : "As the tagline of the red and white institute suggests, 'one step in changing education chain', they work hard to do so. Either by providing practical knowledge or full back support while getting a job. Due to these reasons, I joined a red and white institute group."
+    },
+    {
+        img : "https://d502jbuhuh9wk.cloudfront.net/orgData/6512b619e4b01fed6098ba30/pages/assets/images/TPcF3student6.jpg",
+        name : "Prit Dobariya",
+        desc : "I feel glad that I have chosen to be part of red and white international because, along with knowledge of the extracurricular activities such as personality development, sports week, and technical events such as 'code light', these all have helped me to grow my self on a different level."
+    },
+]

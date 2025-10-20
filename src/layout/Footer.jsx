@@ -4,16 +4,16 @@ const Footer = () => {
   return (
     <>
       <section style={{backgroundColor:"#212529"}}>
-        <div className="container p-5">
-            <div className="row">
+        <div className="container p-5"> 
+            <div className="row flex-lg-row flex-column">
                 <div className="col">
                     <div className="row">
-                        <ul className='list-unstyled d-flex gap-3'>
+                        <ul className='list-unstyled d-flex flex-lg-row flex-column text-center text-lg-start gap-3'>
                             <li>
                                 <a href="#" className='text-decoration-none text-capitalize text-light'>terms of use</a>
                             </li>
                             <li>
-                                <a href="#" className='text-decoration-none text-capitalize text-light'>privacy ppolicy</a>
+                                <a href="#" className='text-decoration-none text-capitalize text-light'>privacy policy</a>
                             </li>
                             <li>
                                 <a href="#" className='text-decoration-none text-capitalize text-light'>about us</a>
@@ -31,7 +31,7 @@ const Footer = () => {
                     </div>
                 </div>
                 <div className="col">
-                    <ul className="d-flex gap-4 flex-row-reverse">
+                    <ul className="d-flex gap-5 gap-lg-4 flex-row-reverse text-center text-lg-end">
                         <li>
                             <a href="#" className="text-light fs-6"><FaLinkedin/></a>
                         </li>

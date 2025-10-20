@@ -5,10 +5,10 @@ const Courses = () => {
     <>
       <div className='container '>
         <h2 className="text-capitalize text-center fs-1">our top courses</h2>
-        <div className="row my-5">
+        <div className="row my-5 justify-content-center">
             {
                 Top_Course.map(ele => 
-                    <div className="col col-lg-3 mb-2">
+                    <div className="col-10 col-sm-6 col-md-4 col-lg-3 mb-2 px-3">
                         <img src={ele.img} alt="" width="100%" height={160}/>
                         <h4 className="text-capitalize mt-4">{ele.title}</h4>
                         <p>{ele.rating}{ele.star}{ele.tot_rating}</p>

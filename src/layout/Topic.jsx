@@ -10,15 +10,16 @@ const Topic = () => {
           </h2>
           <div className="row gap-5 justify-content-center align-content-center">
             {Topics.map((ele) => (
-              <div className="col col-lg-2 px-2 py-3 text-center bg-light align-content-center">
+              <div className="col-10 col-sm-6 col-md-4 col-lg-2 px-2 py-3 text-center bg-light align-content-center">
                 <h4>{ele}</h4>
               </div>
             ))}
-            <div className="col col-lg-3 mb-3">
-              <button className="btn btn-warning p-3 text-light text-capitalize fs-6 rounded-0">
-                browse more category
-              </button>
-            </div>
+          </div>
+
+          <div className="text-center">
+            <button className="text-center center btn btn-warning mt-5 p-3 m-auto text-light text-capitalize fs-6 rounded-0">
+              browse more category
+            </button>
           </div>
         </div>
       </section>

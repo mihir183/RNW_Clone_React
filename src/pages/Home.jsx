@@ -6,6 +6,7 @@ import Courses from '../layout/Courses'
 import Topic from '../layout/Topic'
 import Courses2 from '../layout/Courses2'
 import Footer from '../layout/Footer'
+import Student from '../layout/Student'
 
 const Home = () => {
   return (
@@ -16,6 +17,7 @@ const Home = () => {
       <Courses/>
       <Topic/>
       <Courses2/>
+      <Student/>
       <Footer/>
     </div>
   )

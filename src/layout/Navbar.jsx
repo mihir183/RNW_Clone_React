@@ -1,32 +1,59 @@
 import { CiShoppingCart } from "react-icons/ci";
-import logo from '../assets/images/logo.png'
+import logo from "../assets/images/logo.png";
 
 const Navbar = () => {
   return (
     <>
-     <div className="">
-        <div className="container-fluid py-4 px-5 position-fixed z-3 bg-light">
-            <div className="row gap-5">
-                <div className="col ms-5">
-                    <img src={logo} alt="" width={150} />
-                </div>
-                <div className="col">
-                    <div className="row">
-                        <ul className="d-flex justify-content-center align-items-center list-unstyled">
-                            <li className="text-capitalize mx-3">course</li>
-                            <li className="text-capitalize mx-3">membership</li>
-                            <li className="text-capitalize mx-3"><CiShoppingCart /></li>
-                            <li className="text-capitalize mx-3">
-                                <button className="btn btn-primary text-capitalize px-5 rounded-0">login</button>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
+      <nav className="navbar navbar-expand-lg bg-body-tertiary">
+        <div className="container">
+          <a className="navbar-brand" href="#">
+            <img src={logo} alt="Red and White Education Multi Media." width={150}  />
+          </a>
+          <button
+            className="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span className="navbar-toggler-icon"></span>
+          </button>
+          <div className="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+              <li className="nav-item">
+                <a className="nav-link active text-capitalize" aria-current="page" href="#">
+                  course
+                </a>
+              </li>
+              <li className="nav-item text-capitalize">
+                <a className="nav-link" href="#">
+                  membersghip
+                </a>
+              </li>
+              <li className="nav-item text-capitalize">
+                <a className="nav-link" href="#">
+                  <CiShoppingCart/>
+                </a>
+              </li>
+            </ul>
+            <form className="d-flex" role="search">
+              <input
+                className="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button className="btn btn-outline-success" type="submit">
+                Search
+              </button>
+            </form>
+          </div>
         </div>
-     </div> 
+      </nav>
     </>
-  )
-}
+  );
+};
 
-export default Navbar
+export default Navbar;
